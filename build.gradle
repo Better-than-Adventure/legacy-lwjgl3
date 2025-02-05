@@ -64,3 +64,12 @@ jar {
         rename { "${it}_${project.archivesBaseName}" }
     }
 }
+
+// configure the maven publication
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+}
