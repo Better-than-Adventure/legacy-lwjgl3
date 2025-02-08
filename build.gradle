@@ -24,7 +24,7 @@ loom {
     customMinecraftMetadata.set("https://github.com/Turnip-Labs/bta-manifest-repo/releases/download/v7.3-pre4/7.3-pre4.json")
 }
 
-project.ext.lwjglVersion = "3.3.4"
+project.ext.lwjglVersion = "3.3.3"
 
 dependencies {
     minecraft ("::7.3-pre4")
